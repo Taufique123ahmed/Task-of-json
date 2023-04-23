@@ -1,0 +1,33 @@
+Itrating of traditional loop
+peaple = ["taufique","nitin","faisal","saurav"];
+for(let index = 0; index<peaple.length;index++){
+const element = peaple[index];
+console.log(element);
+};
+
+itrating of for in loop
+
+obj = {
+    name:"taufique",
+    language:"javascript"
+    hobbies:"full stack developer"
+   
+   for(let key in obj){
+    console,log(obj[key]);
+
+itrating of for of loop
+peaple = ["taufique","nitin","saurav"]
+
+for(name of peaple){
+console.log(name);
+
+
+creating my own resume in json
+
+Resume = {
+     "name":"taufique ahmed",
+    "age":   29,
+   " qualification":"bsc",
+    "state":uttar pradesh",
+    "gender":"male"
+}
